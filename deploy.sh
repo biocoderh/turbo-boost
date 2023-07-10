@@ -26,7 +26,7 @@ git clone https://github.com/biocoderh/turbo-boost.git
 cd turbo-boost
 
 $SUDO chmod +x turbo-boost.sh install.sh uninstall.sh
-$SUDO install.sh
+$SUDO ./install.sh
 
 cd ..
 rm -rdf turbo-boost
