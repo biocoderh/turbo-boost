@@ -1,0 +1,7 @@
+[Unit]
+Description=Disable turbo-boost
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/turbo-boost.sh disable
+[Install]
+WantedBy=multi-user.target
